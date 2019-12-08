@@ -71,12 +71,8 @@ blockquote {
     padding: 5px;
 }
 
-.emoji {
-    height: 1.4em;
-}
-
 :not(pre):not(.hljs)>code {
-    color: #c0392b;
-    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    color: #a02f24;
+    font-family: Consolas, LucidaConsole, Menlo, Courier, monospace;
     font-size: .9em;
 }
