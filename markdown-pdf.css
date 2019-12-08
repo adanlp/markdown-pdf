@@ -67,12 +67,6 @@ tr:nth-child(even) {
   background-color: #f8f8f8;
 }
 
-/*
-pre {
-    background-color: #f8f8f8;
-    border: none;
-}*/
-
 blockquote {
     padding: 5px;
 }
