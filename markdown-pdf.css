@@ -1,0 +1,88 @@
+/*
+ * Markdown PDF CSS
+ */
+
+body {
+	margin: 0 auto;
+	font-family: Calibri, Helvetica, Arial, Sans-Serif;
+	font-size: 1em;
+	color: #333333;
+	line-height: 1.5;
+}
+
+h1 {
+	font-size: 2.3em;
+	font-weight: bold;
+	font-family: "Calibri Light", Calibri, Helvetica, Arial, Sans-Serif;
+	border-bottom: 1px solid #f2f2f2;
+	margin-bottom: 1.5em !important;
+}
+
+h2 {
+	font-size: 1.8em;
+	font-weight: bold;
+	font-family: "Calibri Light", Calibri, Helvetica, Arial, Sans-Serif;
+	border-bottom: 1px solid #f2f2f2;
+	margin-bottom: 1em !important;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: "Calibri Light", Calibri, Helvetica, Arial, Sans-Serif;
+	margin-bottom: .8em !important;
+}
+
+h4 {
+	font-size: 1.3em;
+	font-weight: bold;
+	font-family: "Calibri Light", Calibri, Helvetica, Arial, Sans-Serif;
+	margin-bottom: .8em !important;
+}
+
+h5 {
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: "Calibri Light", Calibri, Helvetica, Arial, Sans-Serif;
+	margin-bottom: .8em !important;
+}
+
+h6 {
+	font-size: 1em;
+	font-weight: bold;
+	font-family: "Calibri Light", Calibri, Helvetica, Arial, Sans-Serif;
+	margin-bottom: .8em !important;
+}
+
+th {
+  background-color: #f8f8f8;
+  border: 1px solid #f2f2f2 !important;
+}
+
+td {
+  border: 1px solid #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+/*
+pre {
+    background-color: #f8f8f8;
+    border: none;
+}*/
+
+blockquote {
+    padding: 5px;
+}
+
+.emoji {
+    height: 1.4em;
+}
+
+:not(pre):not(.hljs)>code {
+    color: #c0392b;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: .9em;
+}
